@@ -1,0 +1,28 @@
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.movie-card {
+  background-color: #222;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+}
+
+.movie-info {
+  background-color: #8B0000;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+.movie-info h3 {
+  font-size: 1.2rem;
+}
