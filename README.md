@@ -57,30 +57,6 @@ Create a .env file in the root directory and add your API key:
 
 REACT_APP_OMDB_API_KEY=1b457a18
 
-
-
-Project Structure
-
-movie-tracker-app/
-│── public/
-│── src/
-│   ├── components/
-│   │   ├── Navbar.js
-│   ├── pages/
-│   │   ├── Home.js
-│   │   ├── Search.js
-│   │   ├── Watchlist.js
-│   ├── styles/
-│   │   ├── Home.css
-│   │   ├── Search.css
-│   │   ├── Watchlist.css
-│   ├── App.js
-│   ├── index.js
-│   ├── MovieDetails.js
-│── .env
-│── package.json
-│── README.md
-
 API Usage
 
 The app fetches movie data using the OMDb API:
